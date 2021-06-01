@@ -32,10 +32,10 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
      - ![](Resources/balanced_forest_classification.png)
      - The overall precision score for this algorithm is very high at 99%, with 3% precision score for high-risk loans and 100% for low-risk. The overall recall score is also high at 87%, with a 70% recall score for high-risk and 87% for low-risk. 
    - Easy Ensemble AdaBoost Classifier
-   - ![](Resources/easy_ensemble_accuracy.png)
-   - When using the Easy Ensemble AdaBoost Classifier we had a balanced accuracy score of 93.2%
-   - ![](Resources/easy_ensemble_classification.png)
-   - The overall precision score for this algorithm is very high at 99%, with 9% precision score for high-risk loans and 100% for low-risk. The overall recall score is also very high at 94%, with a 92% recall score for high-risk and 94% for low-risk. 
+     - ![](Resources/easy_ensemble_accuracy.png)
+     - When using the Easy Ensemble AdaBoost Classifier we had a balanced accuracy score of 93.2%
+     - ![](Resources/easy_ensemble_classification.png)
+     - The overall precision score for this algorithm is very high at 99%, with 9% precision score for high-risk loans and 100% for low-risk. The overall recall score is also very high at 94%, with a 92% recall score for high-risk and 94% for low-risk. 
 
 ## Summary
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
