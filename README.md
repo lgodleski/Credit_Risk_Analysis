@@ -12,8 +12,12 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
      - ![](Resources/naive_random_classification.png)
      - The overall precision score for this algorithm is very high at 99% and the recall is lower at 59% which tells us that the predicted positives are likely true positives but a number of other true positives may not have been predicted using this algorithm. 
    - SMOTE Oversampling
-   - 
+     - ![](Resources/smote_accuracy.png)
+     - When using the SMOTE Oversampling algorithm, we get a balanced accuracy score of 66.2%.
+     - ![](Resources/smote_classification.png)
+     - Again we see a very high precision score of 99% and a recall score of 69%. The predicted positives are likely true positives but there may be a number of true positives that were not predicted using this algorithm. 
    - Undersampling
+     - 
    - Combination Sampling (SMOTEENN)
    - Balanced Random Forest Classifier
    - Easy Ensemble AdaBoost Classifier
