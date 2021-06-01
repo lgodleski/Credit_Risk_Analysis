@@ -7,7 +7,7 @@ The purpose of this analysis is to use machine learning models to predict credit
 ## Results
    - Naive Random Oversampling
      - ![](Resources/naive_random_accuracy.png)
-     - When using the Naive Random Oversampling algorithm, we had a balanced accuracy score of .6547 or 65.47%. 
+     - When using the Naive Random Oversampling algorithm, we had a balanced accuracy score of .6547 or 65.5%. 
      - ![](Resources/naive_random_classification.png)
      - The overall precision score for this algorithm is very high at 99% but when looking at the precision for predicting high-risk loans specifically, the precision is only 1% vs. 100% for predicting low-risk. The overall recall is lower at 59%, with a 72% recall score for high-risk loans and a 59% recall score for low-risk.
    - SMOTE Oversampling
