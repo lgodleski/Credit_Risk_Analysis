@@ -17,8 +17,12 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
      - ![](Resources/smote_classification.png)
      - Again we see a very high precision score of 99% and a recall score of 69%. The predicted positives are likely true positives but there may be a number of true positives that were not predicted using this algorithm. 
    - Undersampling
-     - 
+     - ![](Resources/undersampling_accuracy.png)
+     - When using the Undersampling algorithm, we get a balanced accuracy score of 54.4%. 
+     - ![](Resources/undersampling_classification.png)
+     - The precision score for this algorithm is very high 99% and the recall score is low at 40%. The predicted positives are likely true positives but there may be a number of true positives that were not predicted using this algorithm. 
    - Combination Sampling (SMOTEENN)
+   - 
    - Balanced Random Forest Classifier
    - Easy Ensemble AdaBoost Classifier
 
