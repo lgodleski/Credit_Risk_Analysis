@@ -38,7 +38,5 @@ The purpose of this analysis is to use machine learning models to predict credit
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
-
-This tells us that the algorithm is predicting almost all loans as low-risk so the predicted positives are likely true positives but a number of other true positives may not have been predicted using this algorithm. 
+When predicting credit risk, we are looking for a machine learning model that has a high recall score because these algorithms detect the intended target but risk resulting in false positives. Looking at the results of each model, we can see that by using Naive Random Oversampling, SMOTE Oversampling, Undersampling, and SMOTEENN we get very high precision scores, with a big disparity between low-risk and high-risk, and generally low recall scores. This tells us that the algorithm is predicting almost all loans as low-risk so the predicted positives are likely true positives but a number of other true positives are not being predicted. The Balanced Random Forest Classifier algorithm follows a similar pattern but the recall score is significantly higher. The Easy Ensemble Classifier has the highest accuracy score, a high precision score, and the highest overall recall score of 94%. For these reasons, I recommend using the Easy Ensemble AdaBoost Classififer algorithm. 
 
